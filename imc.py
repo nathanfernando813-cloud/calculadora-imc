@@ -6,3 +6,11 @@ if imc < 25:
     print("Peso normal")
 else:
     print("Acima do normal")
+if imc < 18.5:
+    print("Classificação: Abaixo do peso")
+elif imc < 25:
+    print("Classificação: Peso normal")
+elif imc < 30:
+    print("Classificação: Sobrepeso")
+else:
+    print("Classificação: Obesidade")
